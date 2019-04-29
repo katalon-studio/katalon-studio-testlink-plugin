@@ -1,0 +1,14 @@
+.gradle
+bin
+lib
+Drivers/*.jar
+build
+Reports
+
+.classpath
+
+.project
+
+.DS_Store
+
+settings/external/com.kms.katalon.keyword.Testlink-Keywords.properties
