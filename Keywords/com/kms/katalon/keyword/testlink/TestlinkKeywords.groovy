@@ -52,6 +52,14 @@ public class TestlinkKeywords {
 		}
 	}
 
+	/**
+	 * Update result to testlink.
+	 *
+	 * @param testcaseName The test case name on testlink.
+	 * @param exception The exception message if any
+	 * @param results The result of the test case
+	 * @return A labels list of selected options.
+	 */
 	@Keyword
 	static updateResults(String testcaseName, String exception, String results) throws TestLinkAPIException{
 		TestLinkAPIClient testLink = new TestLinkAPIClient(TESTLINK_KEY, TESTLINK_URI)
