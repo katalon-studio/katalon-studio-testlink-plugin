@@ -1,6 +1,8 @@
 {
-	"keywords": ["com.kms.katalon.keyword.testlink.TestlinkKeywords"],
-	"configuration": {
+   "keywords": [
+      "com.kms.katalon.keyword.testlink.TestlinkKeywords"
+   ],
+   "configuration": {
       "settingId": "com.kms.katalon.keyword.Testlink-Keywords",
       "settingPage": {
          "name": "Testlink Integration",
@@ -9,37 +11,33 @@
                "key": "Testlink Key",
                "type": "text",
                "label": "Testlink Key",
-			   "defaultValue":""
+               "defaultValue": ""
             },
-			{
+            {
                "key": "Testlink Url",
                "type": "text",
                "label": "Testlink Url",
-			   "defaultValue":""
-            }
-			,
-			{
+               "defaultValue": ""
+            },
+            {
                "key": "Project Name",
                "type": "text",
                "label": "Project Name",
-			   "defaultValue":""
-            }
-			,
-			{
+               "defaultValue": ""
+            },
+            {
                "key": "Test Plan Name",
                "type": "text",
                "label": "Test Plan Name",
-			   "defaultValue":""
-            }
-			,
-			{
+               "defaultValue": ""
+            },
+            {
                "key": "Build Name",
                "type": "text",
                "label": "Build Name",
-			   "defaultValue":""
+               "defaultValue": ""
             }
          ]
       }
    }
-
 }
